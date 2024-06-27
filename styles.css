@@ -1,0 +1,98 @@
+body {
+    background-color: #f0f0f0; /* Light grey background */
+    font-family: 'Times New Roman', Times, serif;
+    color:cadetblue; /* blue text */
+ }
+ 
+ h1, h2 {
+    font-family: 'Times New Roman', serif;
+    color:midnightblue; /* navy text */
+ }
+ h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+ }
+ 
+ h2 {
+    text-align: left;
+ }
+ 
+ p {
+    margin: 10px 0;
+    padding: 5px;
+ }
+ 
+ #bio, #hobbies, #Pictures {
+    margin: 20px
+    border: 1px solid #ddd; /* light grey border */
+    padding: 20px;
+    background-color: #f9f9f9; /* light background for each section */
+}
+
+h2 {
+    margin-bottom: 10px
+}
+
+ul {
+    padding-left: 20px;
+}
+li {
+    margin-bottom: 5px;
+}
+
+/* Navigation menu styles */
+nav {
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; /* aligns menu items horizonally */
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#f0f0f0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color:rgb(211, 239, 239) 
+}
+
+.profile-card {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* circular image */
+    margin: 0 auto;
+}
+
+/* Styles for dark theme*/
+.dark-theme {
+    background-color: rgb(255, 239, 247); /* baby pink background */
+    color: deeppink; /* pink text */
+}
+
+.dark-theme h1, .dark-theme h2{
+    color: coral; /* orange color for headers in dark theme
+}
